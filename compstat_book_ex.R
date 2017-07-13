@@ -367,3 +367,4 @@ sam = lapply(1:size, function (v) my.rwishart(Sigma, n))
 sd = apply(simplify2array(sam), 1:2, sd)
 
 (truth.mean = n * Sigma)
+
