@@ -3,8 +3,8 @@ b.lim = c(0, 0.5)
 days = 250
 secs = 1:5
 m = 5000
-burn = 1000
-ws = c((1)/4)
+burn = 0
+ws = c((1:2)/4)
 
 rw.b = function (w) {
   x = numeric(m)
